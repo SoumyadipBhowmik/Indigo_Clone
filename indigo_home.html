@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Domestic & International Flights at lowest Airfare - IndiGo</title>
+    <link rel="stylesheet" href="css_files/indigo_home.css">
+    <link rel="shortcut icon" href="images/indigo_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <!-- Ask Dottie Bot -->
+    <aside>
+        <img src="images/Ask_Dottie.png" alt="bot-button">
+    </aside>
+    <aside>
+        <div id="button-overlay"></div>
+    </aside>
+
+    <!-- This is the whole navbar and book ticket part -->
+    <header id="navbar-holder">
+        <div id="nav-holder-opac"></div>
+        <nav id="sticky-navbar">
+            <div id="navbar">
+                <div class="logo-and-nav-options" id="logo-holder">
+                    <div id="hamburger-icon"><a href="sidebar.html" id="sidebar-icon"><i class="fa-solid fa-bars"></i></a></div>
+                    <div id="indigo-logo"><img src="images/Indigo_logo.svg" alt=""></div>
+                </div>
+                <div class="logo-and-nav-options" id="nav-holder">
+                    <div class="nav-options" id="book">Book<i class="fa-solid fa-angle-down"></i></div>
+                    <div class="nav-options" id="check-in">Check-in</div>
+                    <div class="nav-options">Manage<i class="fa-solid fa-angle-down"></i></div>
+                    <div class="nav-options" id="rewards">6E Rewards</div>
+                    <div class="nav-options" id="info">Info<i class="fa-solid fa-angle-down"></i></div>
+                    <a href="login_page.html"><div class="nav-options" id="login">Login<i class="fa-solid fa-angle-down"></i></div></a>
+                </div>
+            </div>
+
+            <div id="search-flight-area">
+                <div class="inner-search-area"></div>
+                <div class="inner-search-area"></div>
+                <div class="inner-search-area"></div>
+            </div>
+            <div class="search-areas">
+                <div id="one-way-part">
+                    <div class="left-and-right" id="a">
+                        <div class="module" id="first-module"><i class="fa-solid fa-arrow-right"></i>&nbsp; One Way &nbsp;<i class="fa-solid fa-sort-down"></i></div>
+                        <div class="module" id="second-module"><i class="fa-regular fa-user"></i>&nbsp; 1 Pax &nbsp;<i class="fa-solid fa-sort-down"></i></div>
+                        <div class="module" id="third-module">Use promo code</div>
+                    </div>
+                    <div class="left-and-right" id="b">Indian Rupee &nbsp;<i class="fa-solid fa-sort-down"></i></div>
+                </div>
+                <div id="from-to-part">
+                    <div id="internal-part-from-to">
+                        <div class="from-to-bars" id="from-textfield">
+                            <fieldset><span>Kolkata(CCU)</span><legend>From</legend></fieldset>
+                        </div>
+                        <div class="from-to-bars" id="right-left"><i class="fa-solid fa-right-left"></i></div>
+                        <div class="from-to-bars" id="to-textfield">
+                            <fieldset><legend>To</legend><span>Bengaluru(BLR)</span></fieldset>
+                        </div>
+                        <div class="from-to-bars" id="date-and-time-holder">
+                            <fieldset id="calender-return"><legend>Travel Dates</legend>
+                                <div class="cal" id="calender"><i class="fa-regular fa-calendar"><span>01 Oct 2023&nbsp;&nbsp;&nbsp;&nbsp;-</span></i></div>
+                                <div class="cal" id="return-trip">Add return trip</div>
+                            </fieldset>
+                        </div>
+                        <div class="from-to-bars" id="search-button">Search Flight</div>
+                    </div>
+                </div>
+                <div id="filter-area">
+                    <div class="filter-tabs" id="armed">Armed Forces</div>
+                    <div class="filter-tabs" id="doctors">Doctors & Nurses</div>
+                    <div class="filter-tabs" id="friends">Family & Friends</div>
+                    <div class="filter-tabs" id="minor">Unaccompanied Minor</div>
+                    <div class="filter-tabs" id="students">Students</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- This is the carousal area -->
+    <article id="carousal-part">
+        <div id="carousal-image"></div>
+        <div id="carousal-slider">
+            <div class="slide-dots"></div>
+            <div class="slide-dots" id="select"></div>
+            <div class="slide-dots"></div>
+            <div class="slide-dots"></div>
+            <div class="slide-dots"></div>
+        </div>
+    </article>
+
+    <!-- Offers Section -->
+    <article id="offers-section">
+        <div id="offer-header">
+            <div id="inspired-header">
+                <div id="heading">Offers</div>
+                <div id="view">
+                    <div class="inspired-side-bar" id="view-all-text">View All</div>
+                    <div class="inspired-side-bar" id="inspired-carousal-button">
+                        <div class="bars" id="bar-left"><i class="fa-solid fa-angle-left"></i></div>
+                        <div class="bars" id="bar-right"><i class="fa-solid fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="offer-body">
+            <div class="gift-cards"><img src="images/gift-card1.jpg" id="img-big" alt=""></div>
+            <div class="gift-cards"><img src="images/gift-card2.jpg" alt=""></div>
+            <div class="gift-cards"><img src="images/gift-card3.jpg" alt=""></div>
+            <div class="gift-cards"><img src="images/gift-card4.png" alt=""></div>
+        </div>
+    </article>
+
+    <!-- 6E Services Section -->
+    <article id="E-services">
+        <div id="services-header-section">
+            <div id="heading">6E Services</div>
+            <div id="view">
+                <div class="inspired-side-bar" id="view-all-text">View All</div>
+                </div>
+            </div>
+        </div>
+        <div id="service-tabs">
+            <div class="tab-headers" id="underline-border">Food & Beverage</div>
+            <div id="tab-from-second">
+                <div class="tab-headers">Baggage</div>
+                <div class="tab-headers">Combo</div>
+                <div class="tab-headers">Airport Services</div>
+                <div class="tab-headers">Trip Assurance</div>
+                <div class="tab-headers">Discover More</div>
+            </div>
+        </div>
+        <div id="service-cards">
+            <div class="cards" id="serve-card-margin1">
+                <div class="card-pic-hover"></div>
+                <div id="card-pic"><img class="card-pic-image" src="images/6E Eats.avif"></div>
+                <div id="card-content">
+                    <div class="card-content-header">6E Eats</div>
+                    <div class="card-content-content">Delectable preparations now on-board. Bookings open.</div>
+                </div>
+            </div>
+            <div class="cards" id="serve-card-margin2">
+                <div class="card-pic-hover"></div>
+                <div id="card-pic"><img class="card-pic-image" src="images/oneforskies.avif"></div>
+                <div id="card-content">
+                    <div class="card-content-header">One for the skies</div>
+                    <div class="card-content-content">Pre-book your favourite alcoholic beverage.</div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Get Inspired Section -->
+    <article id="inspired-section">
+        <div id="inspired-header">
+            <div id="heading">Get Inspired</div>
+            <div id="view">
+                <div class="inspired-side-bar" id="view-all-text">View All</div>
+                <div class="inspired-side-bar" id="inspired-carousal-button">
+                    <div class="bars" id="bar-left"><i class="fa-solid fa-angle-left"></i></div>
+                    <div class="bars" id="bar-right"><i class="fa-solid fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <div id="inspired-card-holder">
+            <div class="cards">
+                <div class="card-pic-hover"></div>
+                <div id="card-pic"><img class="card-pic-image" src="images/Eat. Stay. Love.avif"></div>
+                <div id="card-content">
+                    <div class="card-content-header">Eat. Stay. Love</div>
+                    <div class="card-content-content">An all-in-one 6Experience at Fratelli Vineyards awaits when you book a flight to Pune</div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-pic-hover"></div>
+                <div id="card-pic"><img class="card-pic-image" src="images/Sun Set Savour.avif" alt=""></div>
+                <div id="card-content">
+                    <div class="card-content-header">Sun Set Savour</div>
+                    <div class="card-content-content">Enjoy an exclusive 6Experience at Sula Vineyards when you book a flight to Nashik</div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-pic-hover"></div>
+                <div id="card-pic"><img class="card-pic-image" src="images/No-filter-2.avif" alt=""></div>
+                <div id="card-content">
+                    <div class="card-content-header">#nofilter by IndiGo</div>
+                    <div class="card-content-content">Send us your best photographs and stand a chance to be featured on National Geographic.</div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-pic-hover"></div>
+                <div id="card-pic"><img class="card-pic-image" src="images/Festivals from India.avif" alt=""></div>
+                <div id="card-content">
+                    <div class="card-content-header">Festivals From India</div>
+                    <div class="card-content-content">Explore arts and culture festivals across India.</div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- FAQ Section -->
+    <article id="faq-section">
+        <div class="faq-body">
+            <div class="faq-header">Why choose IndiGo</div>
+            <div class="faq-content">When you <span class="underline-span">book flight with IndiGo</span>, you fly on-time, every time, daily, and non-stop. Get the lowest booking and cancellation fee, exclusive offers, add-ons and in-flight services that make your journey hassle-free. Now, you can <span class="underline-span">download the app</span> and travel on the go, with IndiGo.</div>
+        </div>
+        <div class="faq-body" id="faq-content-india">
+            <div class="faq-header">India and abroad</div>
+            <div class="faq-content">Choose from over 80+ <span class="underline-span">domestic</span>, and 30+ international destinations when you book with IndiGo. Enjoy the 6E experience when you fly across the world with our 7 codeshare partners - from France to Australia, and beyond. Book your preferred flight on our website and let us fly you across India and the world.</div>
+        </div>
+        <div class="faq-body">
+            <div class="faq-header">The complete 6E experience</div>
+            <div class="faq-content">With IndiGo, you fly hassle-free, from beginning to end, when you <span class="underline-span">pre-book our 6E Services</span>. From priority check-in and anytime boarding, to complimentary snacks and doorstep baggage delivery – you can personalise your journey, every step of the way, when you say ‘Let’s IndiGo’.</div>
+        </div>
+    </article>
+
+    <!-- InDigo Alerts -->
+    <article id="indigo-alert">
+        <div class="indigo-alert-content" id="ia-image"><img src="images/IndiGoAlerts.webp" alt=""></div>
+        <div class="indigo-alert-content" id="ia-heading">INDIGO ALERTS</div>
+        <div class="indigo-alert-content" id="ia-content">Passengers travelling to India from foreign countries, and those travelling within India are not allowed to carry satellite phones without permission from the Department of Telecommunications.</div>
+        <div id="indigo-alert-content-fx">
+            <div class="indigo-alert-content-fx-fx" id="ia-left"><i class="fa-solid fa-angle-left"></i></div>
+            <div class="indigo-alert-content-fx-fx" id="ia-right"><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+    </article>
+
+    <!-- Banner section -->
+    <article id="banner">
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="airplane-outline"></ion-icon></i></div>
+            <div class="banner-div-content">1900+ Daily flights</div>
+        </div>
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="map-outline"></ion-icon></div>
+            <div class="banner-div-content">80+ Domestic Destinations</div>
+        </div>
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="earth-outline"></ion-icon></div>
+            <div class="banner-div-content">30+ International Destinations</div>
+        </div>
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="walk-outline"></ion-icon></div>
+            <div class="banner-div-content">500 Mn+ happy passengers</div>
+        </div>
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="paper-plane-outline"></ion-icon></i></div>
+            <div class="banner-div-content">300+ Fleet strong</div>
+        </div>
+    </article>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <div><h3 class="footer-topic">Get to Know Us</h3></div>
+            <div class="footer-link-hover">About us</div>
+            <div class="footer-link-hover">IndiGo Green - ESG report</div>
+            <div class="footer-link-hover">IndiGoReach - Our CSR initiatives</div>
+            <div class="footer-link-hover">Hello 6E Magazine</div>
+            <div class="footer-link-hover">Board of Directors</div>
+            <div class="footer-link-hover">Leadership Team</div>
+            <div class="footer-link-hover">Investor Relations</div>
+            <div class="footer-link-hover">Press Releases</div>
+            <div class="footer-link-hover">InterGlobe Enterprises</div>
+            <div class="footer-link-hover">RPWD - Equal Opportunity Policy</div>
+            <div class="footer-link-hover">Transgender Persons Policy</div>
+            <div class="footer-link-hover">HIV/AIDS workplace policy</div>
+            <div class="footer-link-hover">Our Awards</div>
+            <div class="footer-link-hover">Seat/Aircraft information</div>
+        </div>
+        <div class="footer-links">
+            <div><h3 class="footer-topic">Services</h3></div>
+            <div class="footer-link-hover">Plan B</div>
+            <div class="footer-link-hover">Special/Disability Assistance</div>
+            <div class="footer-link-hover">Medical Assistance</div>
+            <div class="footer-link-hover">Seat Select</div>
+            <div class="footer-link-hover">Gift Voucher</div>
+            <div class="footer-link-hover">6E Eats</div>
+            <div class="footer-link-hover">Add-ons & Services</div>
+            <div class="footer-link-hover">Baggage</div>
+            <div class="footer-link-hover">Refund Claim</div>
+        </div>
+        <div class="footer-links">
+            <div><h3 class="footer-topic">Quick links</h3></div>
+            <div class="footer-link-hover">Offers</div>
+            <div class="footer-link-hover">Careers</div>
+            <div class="footer-link-hover">Advertise with us</div>
+            <div class="footer-link-hover">Sitemap</div>
+            <div class="footer-link-hover">Destinations</div>
+            <div class="footer-link-hover">Blogs</div>
+            <div class="footer-link-hover">Terms and Conditions</div>
+            <div class="footer-link-hover">Conditions of Carriage</div>
+            <div class="footer-link-hover">Privacy Policy</div>
+            <div class="footer-link-hover">Disclaimer</div>
+            <div class="footer-link-hover">International Travel Tips</div>
+            <div class="footer-link-hover">Web check-in Advisory</div>
+            <div class="footer-link-hover">Tariff Sheet</div>
+            <div class="footer-link-hover">Purchase Requirement</div>
+        </div>
+        <div class="footer-links">
+            <div><h3 class="footer-topic">Social</h3></div>
+            <div id="social-nav">
+                <div class="social-nav-icons"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="social-nav-icons"><i class="fa-brands fa-twitter"></i></div>
+                <div class="social-nav-icons"><i class="fa-brands fa-square-instagram"></i></div>
+                <div class="social-nav-icons"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="social-nav-icons"><i class="fa-solid fa-binoculars"></i></div>
+            </div>
+            <div><img src="images/connect_whatsapp.avif" alt="" id="connect-whatsapp"></div>
+            <div><h3 class="footer-topic">Download</h3></div>
+            <div><img src="images/gplay_download.svg" alt=""></div>
+            <div><img src="images/App_store_download.svg" alt=""></div>
+            <div><h3 class="footer-topic">Our Awards</h3></div>
+            <div><img src="images/Award_1.avif" alt="" class="award-images"></div>
+            <div><img src="images/Award_2.avif" alt="" class="award-images"></div>
+            <div><img src="images/Award_3.avif" alt="" class="award-images"></div>
+        </div>
+    </footer>
+
+    <!-- Ending with Copyright -->
+    <div id="copyright-ending">
+        <span id="plane-pic"><i class="fa-solid fa-plane-departure"></i></span>
+        &nbsp;
+        &copy; Copyright 2023 IndiGo. All rights reserved.
+    </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
