@@ -110,7 +110,7 @@ a{
     margin-top: 123px;
 }
 .table{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 750px;
     width: 1200px;
     margin: 12px auto;
@@ -128,31 +128,90 @@ a{
     height: 226px;
     width: 1120px;
     /* border: 1px solid red; */
-    margin: 0px auto;
+    margin: 100px auto;
 }
 #top-part{
-    font-size: ;
     display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100%;
+    width: 1070px;
     justify-content: space-between;
 }
 #img-big{
     height: 170px;
     width: 270px;
-    /* border: 1px solid red; */
+    cursor: pointer;
 }
 #move{
-    /* padding-top: 100px; */
     margin-left: 10px;
     font-size: 31px;
     font-weight: bolder;
 }
-
+#view{
+    font-size: 15px;
+    cursor: pointer;
+    color: #2666f1;
+}
+#table3{
+    /* border: 1px solid red; */
+    width: 1100px;
+    height: 600px;
+    margin: -34px auto;
+}
 
 /* Offers Section */
 
+/* Click Here part */
 
+#click-here{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 80px;
+    width: 79%;
+    margin: 90px auto;
+    border: 1px solid #F4F4F8;
+    background-color: #F4F4F8;
+}
+
+#click-here>li{
+    color: rgb(70, 68, 68);
+    padding: 25px;
+    font-size: 15px;
+}
+#click-here a{
+    font-weight: 500;
+    color: #2666f1;
+}
+
+.hidden {
+    display: none;
+    width: 100%;
+    font-size: 20px;
+    height: 100px;
+}
+:checked+.hidden{
+    display: block;
+}
+
+.holder :checked+.hidden {
+    height: 175px;
+}
+
+label{
+    width: 100%;
+    height: 65px;
+    font-size: 17.5px;
+}
+.holder:hover {
+    background-color: #F4F4F8;
+}
+
+.holder{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 25px 10px;
+    height: 75px;
+    border-bottom: 1px solid rgb(168, 166, 166);
+    margin: 7px 12px;
+}
+/* Click Here part */
 
 
 
