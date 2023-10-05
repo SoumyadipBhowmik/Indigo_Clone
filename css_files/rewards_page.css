@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+a{
+    text-decoration: none;
+}
+#sticky-navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 55px;
+    background-color: #0b3daa;
+    width: 100%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 0, 0, 0);
+    height: 50px;
+    width: 100%;
+}
+.logo-and-nav-options{
+    height: 65px;
+    width: 100px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    margin: -7px 37px;
+}
+#logo-holder{
+    width: 183px;
+    display: flex;
+    border: 1px solid rgba(255, 0, 0, 0);
+    justify-content: space-between;
+    padding: 0px 18px;
+}
+#nav-holder{
+    display: flex;
+    align-items: center;
+    width: 900px;
+    font-size: 17px;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+#hamburger-icon{
+    margin: 19px -5px;
+    color: #FFFF;
+    font-size: 20px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    padding: 0px 4px;
+}
+
+#hamburger-icon:hover{
+    background-color: #18306080;
+}
+#indigo-logo img{
+    margin: 19px 5px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    height: 25px;
+}
+.nav-options{
+    margin-left: 7px;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+    width: 90px;
+    color: #FFFF;
+    font-weight: bold;
+    border: 1px solid rgba(255, 0, 0, 0.003);
+}
+.nav-options a{
+    color: #FFFF;
+    text-decoration: none;
+}
+.nav-options i{
+    margin: 2px 4.7px;
+    /* font-size: 1; */
+}
+#login,#info,#book{
+    width: 74px;
+}
+#rewards{
+    width: 109px;
+}
+#check-in{
+    margin: 0px 3px;
+    width: 86px;
+}
+
+/* Navbar */
+
+/* All the Headers and Contents */
+.headings{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    width: 480px;
+    color: rgb(30, 30, 30);
+    margin: 31px auto;
+    font-size: 31px;
+    font-weight: 900;
+}
+#head1{
+    margin-top: 123px;
+}
+.table{
+    border: 1px solid red;
+    height: 750px;
+    width: 1200px;
+    margin: 12px auto;
+}
+#table2{
+    margin-left: 195px;
+    border-color: #18306080;
+    height: 266px;
+    width: 270px;
+}
+/* All the Headers and Contents */
+
+/* Offers Section */
+#offers-section{
+    height: 226px;
+    width: 1120px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+}
+#top-part{
+    font-size: ;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    justify-content: space-between;
+}
+#img-big{
+    height: 170px;
+    width: 270px;
+    /* border: 1px solid red; */
+}
+#move{
+    /* padding-top: 100px; */
+    margin-left: 10px;
+    font-size: 31px;
+    font-weight: bolder;
+}
+
+
+/* Offers Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Banner Section */
+
+#banner{
+    display: flex;
+    justify-content: space-around;
+    width: 1120px;
+    border-bottom: 1px solid rgb(11, 164, 164);
+    background-color: #FFFF;
+    height: 137px;
+    margin: 0px auto;
+    border-radius: 1px;
+}
+
+.banner-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 0px;
+    /* border: 2px solid red; */
+    height: 120px;
+    width: 135px;
+}
+.banner-div-icons{
+    font-size: 44px;
+    /* border: 1px solid blue; */
+}
+.banner-div-content{
+    color: rgb(43, 42, 42);
+    text-align: center;
+    /* border: 1px solid blue; */
+    font-size: 16px;
+}
+/* Banner Section */
+
+/* Footer Part */
+footer{
+    display: flex;
+    border: 2px solid rgba(255, 0, 0, 0);
+    height: 580px;
+    width: 75%;
+    margin: 0px auto;
+}
+
+.footer-links{
+    height: 570px;
+    width: 280px;
+    margin: 0px 30px;
+    color: black;
+    padding: 30px 10px;
+    font-size: 15px;
+}
+
+.footer-links div{
+    margin-top: 10px;
+}
+.award-images{
+    width: 199.25px;
+    height: 50px;
+}
+#connect-whatsapp{
+    width: 179.73px;
+    height: 50px;
+}
+
+#social-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-nav-icons{
+    font-size: 22px;
+    padding: 6px 7px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+
+}
+.social-nav-icons:hover{
+    background-color: rgb(233, 230, 230);
+    color: black;
+    cursor: pointer;
+}
+
+.footer-topic{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.footer-link-hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+/* Footer Part */
+
+/* Copyright Section */
+#copyright-ending{
+    margin: 0px auto;
+    width: 1120px;
+    height: 69px;
+    border-top: 1px solid rgb(11, 164, 164);
+    font-size: 17px;
+    padding: 20.5px 15px;
+    font-weight: 500;
+    color: black;
+}
+#plane-pic{
+    font-size: 20px;
+}
+/* Copyright Section */

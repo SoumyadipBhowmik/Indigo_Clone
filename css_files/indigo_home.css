@@ -9,7 +9,6 @@
     color: #FFFF;
 }
 body{
-    /* height: 50px; */
     background: linear-gradient(#2666F1, #183060);
     background-attachment: fixed;
 }
@@ -45,6 +44,42 @@ aside:hover img{
 a{
     text-decoration: none;
 }
+
+/* Animation for Carousal Button */
+
+#animation-for-carousal-button{
+    background-color: #FFFF;
+    /* border: 1px solid red; */
+    height: 10px;
+    width: 10px;
+    margin: 672.9px 722.8px;
+    animation: moveButton 7s infinite;
+    animation-timing-function: step-end;
+    position: absolute;
+    border-radius: 100%;
+}
+
+@keyframes moveButton {
+    0%{
+        margin-left: 730.8px;
+    }
+    25%{
+        margin-left: 747px;
+    }
+    50%{
+        margin-left: 762px;
+    }
+    75%{
+        margin-left: 778px;
+    }
+    100%{
+    }
+}
+
+/* Animation for Carousal Button */
+
+
+
 /* Navbar */
 #navbar-holder{
     height: 285px;
@@ -436,9 +471,11 @@ fieldset:hover{
     50%{
         background-image: url("HP_Hong_kong.avif")
     }
-    100%{
+    75%{
         background-image: url("San_FrancisGo_hp.jpg");
         background-size: cover;
+    }
+    100%{
     }
 }
 
@@ -456,16 +493,13 @@ fieldset:hover{
     border-radius: 100%;
 }
 
-#select{
-    background-color: #FFFF;
-}
 /* Carousal Area */
 
 /* Offers Section */
 #offers-section{
     height: 226px;
     width: 1120px;
-    margin: 0px auto;
+    margin: -24px auto;
 }
 
 #offer-body{
