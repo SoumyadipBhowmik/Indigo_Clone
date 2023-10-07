@@ -127,7 +127,6 @@ a{
 #offers-section{
     height: 226px;
     width: 1120px;
-    /* border: 1px solid red; */
     margin: 100px auto;
 }
 #top-part{
@@ -152,7 +151,6 @@ a{
     color: #2666f1;
 }
 #table3{
-    /* border: 1px solid red; */
     width: 1100px;
     height: 600px;
     margin: -34px auto;
@@ -184,24 +182,18 @@ a{
 .hidden {
     display: none;
     width: 100%;
-    font-size: 20px;
-    height: 100px;
-}
-:checked+.hidden{
-    display: block;
-}
-
-.holder :checked+.hidden {
+    font-size: 17px;
     height: 175px;
+    z-index: 3;
 }
 
-label{
-    width: 100%;
-    height: 65px;
-    font-size: 17.5px;
-}
-.holder:hover {
-    background-color: #F4F4F8;
+:checked+.hidden{
+    display: inline-block;
+    background-color:#FFFF;
+    height: 60px;
+    width: 1200px;
+    margin: 10px -30px;
+    border: 1px solid black;
 }
 
 .holder{
@@ -210,6 +202,9 @@ label{
     height: 75px;
     border-bottom: 1px solid rgb(168, 166, 166);
     margin: 7px 12px;
+}
+.holder:hover{
+    background-color: rgba(210, 208, 208, 0.43);
 }
 /* Click Here part */
 
