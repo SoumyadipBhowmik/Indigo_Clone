@@ -110,18 +110,115 @@ a{
     margin-top: 123px;
 }
 .table{
-    /* border: 1px solid red; */
-    height: 750px;
-    width: 1200px;
-    margin: 12px auto;
+    /* border: 1px solid #18306080; */
+    height: 836px;
+    width: 1135px;
+    margin: 50px auto;
 }
+
+#table1{
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: 378.5px 378.5px 378.5px;
+    grid-template-rows: 235px 168px 203px 230px;
+}
+.grid-boxes{
+    border: 1px solid #18306080;
+}
+
+#box1{
+    border-top: none;
+    border-left: none;
+}
+#box2{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+#box3{
+    border-top: none;
+    border-right: none;
+}
+#box4{
+    border-left: none;
+    border-top: none;
+}
+#box5{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#box6{
+    border-top: none;
+    border-right: none;
+}
+#box7{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+#box8{
+    border: none;
+}
+#box9{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+#box10{
+    border-left: none;
+}
+#box11{
+    border-left: none;
+    border-right: none;
+}
+#box12{
+    border-right: none;
+}
+
+.heading-inside-box{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.icon-class{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 6px;
+    background-color: #E2F2FD;
+}
+.icon-class-two{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 6px;
+    background-color: #E2F2FD;
+}
+
+
+
+
+
+
+
+
+
+
+
 #table2{
+    border: 1px solid #18306080;
     margin-left: 195px;
-    border-color: #18306080;
     height: 266px;
     width: 270px;
 }
 /* All the Headers and Contents */
+/* SIx E treats */
+
+/* SIx E treats */
 
 /* Offers Section */
 #offers-section{
