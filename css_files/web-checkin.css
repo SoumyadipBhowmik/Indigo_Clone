@@ -1,0 +1,468 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Bot Integration */
+aside{
+    position: fixed;
+    margin: 655px 1349.2px;
+}
+aside div{
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+}
+
+aside:hover div{
+    /* border: 2px solid red; */
+    background-color: rgba(128, 126, 126, 0.108);
+    height: 53px;
+    width: 140px;
+    cursor: pointer;
+    margin: 3px 5px;
+}
+
+aside img{
+    height: 60px;
+    width: 150px;
+}
+
+aside:hover img{
+    background-color: rgba(0, 0, 0, 0.027);
+}
+/* Bot Integration */
+
+/* Navbar */
+
+a{
+    text-decoration: none;
+}
+
+#nav-holder-opac{
+    height: 60px;
+    width: 100%;
+    /* border: 5px solid green; */
+}
+
+#sticky-navbar{
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 55px;
+    background-color: #0b3daa;
+    width: 100%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 0, 0, 0);
+    height: 50px;
+    width: 100%;
+}
+.logo-and-nav-options{
+    height: 65px;
+    width: 100px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    margin: -7px 37px;
+}
+#logo-holder{
+    width: 183px;
+    display: flex;
+    border: 1px solid rgba(255, 0, 0, 0);
+    justify-content: space-between;
+    padding: 0px 18px;
+}
+#nav-holder{
+    display: flex;
+    align-items: center;
+    width: 900px;
+    font-size: 17px;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+#hamburger-icon{
+    margin: 19px -5px;
+    color: #FFFF;
+    font-size: 20px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    padding: 0px 4px;
+}
+
+#hamburger-icon:hover{
+    background-color: #18306080;
+}
+#indigo-logo img{
+    margin: 19px 5px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    height: 25px;
+}
+.nav-options{
+    margin-left: 7px;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+    width: 90px;
+    color: #FFFF;
+    font-weight: bold;
+    border: 1px solid rgba(255, 0, 0, 0.003);
+}
+.nav-options a{
+    color: #FFFF;
+    text-decoration: none;
+}
+.nav-options i{
+    margin: 2px 4.7px;
+    /* font-size: 1; */
+}
+#login,#info,#book{
+    width: 74px;
+}
+#rewards{
+    width: 109px;
+}
+#check-in{
+    margin: 0px 3px;
+    width: 86px;
+}
+
+/* Navbar */
+
+/* Navigate Link */
+
+#navigate-link{
+    height: 100px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 13.5px;
+    padding: 42px 198px;
+    color: #555555;
+}
+#navigate-link i{
+    font-size: 8px;
+}
+#navigate-link a{
+    color: #217AFF;
+}
+#navigate-link a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+/* Navigate Link */
+
+/* React Area */
+#react-area{
+    display: flex;
+    height: 750px;
+    width: 1120px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+#react-area-aside{
+    height: 750px;
+    width: 200px;
+    /* border: 1px solid red; */
+}
+
+.react-area-aside-contents{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #555555;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+.react-area-aside-contents:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#head-in-react{
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 22px;
+}
+#bold-in-react{
+    color: black;
+    font-weight: bolder;
+}
+
+#react-area-article{
+    height: 725px;
+    width: 910px;
+    margin-top: 9px;
+    /* background-color: #555555; */
+}
+
+.headers-for-react{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+#image-react-area img{
+    height: 305.5px;
+}
+
+/* React Area */
+
+
+
+/* Baggage-section */
+.baggage-section{
+    display: flex;
+    width: 900px;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin: 0px 400px;
+    justify-content: space-between;
+}
+
+.baggage-boxes{
+    display: flex;
+    height: 140px;
+    width: 435px;
+    border-radius: 1px;
+    border: 1px solid #DEDEDE;
+    position: relative;
+}
+.baggage-boxes:hover{
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.box-image{
+    height: 150px;
+    width: 125px;
+    /* border: 1px solid red; */
+}
+.box-image-content{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 300px;
+    /* border: 1px solid green; */
+}
+.box-image img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+.box-image-content-title{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.box-image-content-article{
+    height: 70px;
+    width: 100%;
+}
+.box-image-content-article span{
+    color: #0b3daa;
+    font-weight: bold;
+}
+.box-image-content-article span:hover{
+    text-decoration: underline;
+}
+
+/* Baggage-section */
+
+#note{
+    font-family: 'Lato', sans-serif;
+    height: 20px;
+    width: 875px;
+    margin: 5px 400px;
+    font-size: 17px;
+}
+
+
+.headers-for-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 70px;
+    width: 800px;
+    margin: 5px 400px;
+    /* border: 1px solid red; */
+    font-size: 27px;
+    font-weight: bolder;
+    padding-top: 38px;
+    word-spacing: -2px;
+}
+
+
+
+/* Travel Advisory */
+
+#travel-advisory{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 565px;
+    width: 900px;
+    margin: 25px 400px;
+    background-color: #FFFDE4;
+    font-size: 15px;
+    padding: 25px;
+    color: #555555;
+}
+
+ul{
+   line-height : 25px;
+   width: 820px;
+   margin-left: 25px;
+}
+/* Travel Advisory */
+ul span{
+    font-weight: bold;
+}
+ul a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+/* Advert Area */
+
+#advert{
+    height: 132px;
+    width: 900px;
+    margin-left: 400px;
+    margin-bottom: 25px;
+}
+
+#advert-text{
+    color: grey;
+    font-size: 15px;
+}
+
+#advert-image{
+    background: url("ad-image.png");
+    background-size: contain;
+    height: 114px;
+    width: 100%;
+}
+/* Advert Area */
+
+
+/* Banner Section */
+
+#banner{
+    display: flex;
+    justify-content: space-around;
+    width: 1120px;
+    border-bottom: 1px solid rgb(11, 164, 164);
+    background-color: #FFFF;
+    height: 137px;
+    margin: 0px auto;
+    border-radius: 1px;
+}
+
+.banner-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 0px;
+    /* border: 2px solid red; */
+    height: 120px;
+    width: 135px;
+}
+.banner-div-icons{
+    font-size: 44px;
+    /* border: 1px solid blue; */
+}
+.banner-div-content{
+    color: rgb(43, 42, 42);
+    text-align: center;
+    /* border: 1px solid blue; */
+    font-size: 16px;
+}
+/* Banner Section */
+
+/* Footer Part */
+footer{
+    display: flex;
+    border: 2px solid rgba(255, 0, 0, 0);
+    height: 580px;
+    width: 75%;
+    margin: 0px auto;
+}
+
+.footer-links{
+    height: 570px;
+    width: 280px;
+    margin: 0px 30px;
+    color: black;
+    padding: 30px 10px;
+    font-size: 15px;
+}
+
+.footer-links div{
+    margin-top: 10px;
+}
+.award-images{
+    width: 199.25px;
+    height: 50px;
+}
+#connect-whatsapp{
+    width: 179.73px;
+    height: 50px;
+}
+
+#social-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-nav-icons{
+    font-size: 22px;
+    padding: 6px 7px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+
+}
+.social-nav-icons:hover{
+    background-color: rgb(233, 230, 230);
+    color: black;
+    cursor: pointer;
+}
+
+.footer-topic{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.footer-link-hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+/* Footer Part */
+
+/* Copyright Section */
+#copyright-ending{
+    margin: 0px auto;
+    width: 1120px;
+    height: 69px;
+    border-top: 1px solid rgb(11, 164, 164);
+    font-size: 17px;
+    padding: 20.5px 15px;
+    font-weight: 500;
+    color: black;
+}
+#plane-pic{
+    font-size: 20px;
+}
+/* Copyright Section */

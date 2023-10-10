@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web check-in with seat selection & boarding pass - IndiGo</title>
+    <link rel="stylesheet" href="css_files/web-checkin.css">
+    <link rel="shortcut icon" href="images/indigo_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- Ask Dottie Bot -->
+    <aside>
+        <img src="images/Ask_Dottie.png" alt="bot-button">
+    </aside>
+    <aside>
+        <div id="button-overlay"></div>
+    </aside>
+
+    <!-- Navbar Section -->
+    <header id="navbar-holder">
+        <div id="nav-holder-opac"></div>
+        <nav id="sticky-navbar">
+            <div id="navbar">
+                <div class="logo-and-nav-options" id="logo-holder">
+                    <div id="hamburger-icon"><i class="fa-solid fa-bars"></i></div>
+                    <div id="indigo-logo"><a href="indigo_home.html"><img src="images/Indigo_logo.svg" alt=""></a></div>
+                </div>
+                <div class="logo-and-nav-options" id="nav-holder">
+                    <div class="nav-options" id="book">Book<i class="fa-solid fa-angle-down"></i></div>
+                    <div class="nav-options" id="check-in">Check-in</div>
+                    <div class="nav-options">Manage<i class="fa-solid fa-angle-down"></i></div>
+                    <div class="nav-options" id="rewards"><a href="rewards_page.html">6E Rewards</a></div>
+                    <div class="nav-options" id="info">Info<i class="fa-solid fa-angle-down"></i></div>
+                    <a href="login_page.html"><div class="nav-options" id="login">Login<i class="fa-solid fa-angle-down"></i></div></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Navigate link -->
+    <div id="navigate-link">
+        <a href="#">Home</a> &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;&nbsp;
+        <a href="#">Plan your travel</a> &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;
+        <span>Web Check-in</span>
+    </div>
+
+    <!-- React Area -->
+    <div id="react-area">
+        <div id="react-area-aside">
+            <div class="react-area-aside-contents" id="head-in-react">Plan your travel</div>
+            <div class="react-area-aside-contents">Flight Booking</div>
+            <div class="react-area-aside-contents" id="bold-in-react">Web Check-in</div>
+            <div class="react-area-aside-contents">App Check-in</div>
+            <div class="react-area-aside-contents">Auto check-in</div>
+            <div class="react-area-aside-contents">Kiosk Check-in</div>
+            <div class="react-area-aside-contents">Boarding Pass</div>
+            <div class="react-area-aside-contents">Edit Booking</div>
+            <div class="react-area-aside-contents">Baggage Tag</div>
+            <div class="react-area-aside-contents">Update Contact Details</div>
+            <div class="react-area-aside-contents">Submit international passesnger details</div>
+            <div class="react-area-aside-contents">Plan B</div>
+            <div class="react-area-aside-contents">Credit Shell</div>
+            <div class="react-area-aside-contents">6E Add-ons</div>
+            <div class="react-area-aside-contents">Change Flight</div>
+            <div class="react-area-aside-contents">Cancellation</div>
+            <div class="react-area-aside-contents">Refund</div>
+            <div class="react-area-aside-contents">Refund Status</div>
+            <div class="react-area-aside-contents">View GST Invoice</div>
+            <div class="react-area-aside-contents">View Payment Invoice</div>
+            <div class="react-area-aside-contents">Flight Status</div>
+            <div class="react-area-aside-contents">Booking Information</div>
+        </div>
+        <div id="react-area-article">
+            <article class="headers-for-react">Web Check-in</article>
+            <div id="image-react-area"><img src="images/digiyatra.png" alt="digi-yatra"></div>
+        </div>
+    </div>
+
+
+
+
+    <article class="baggage-section">
+       <div class="baggage-boxes">
+           <div class="box-image"><img src="images/document.png" alt=""></div>
+            <div class="box-image-content">
+                <div class="box-image-content-title">State-wise regulations</div>
+                <div class="box-image-content-article">
+                    Before you travel, please check the applicable rules of the arrival city and state. <span>Know more</span>
+                </div>
+            </div>
+        </div>
+        <div class="baggage-boxes">
+            <div class="box-image"><img src="images/suitcase.png" alt=""></div>
+            <div class="box-image-content">
+                <div class="box-image-content-title">Recommended baggage tag</div>
+                <div class="box-image-content-article">Add your check-in and generate baggage tag 48 hr to 60 min before your flight. <span>Know more</span></div>
+            </div>
+        </div>
+    </article>
+
+
+    <p id="note">*All passengers except unaccompanied minors (UNMR), passengers with medical case (MEDA) and those travelling on a stretcher (STCR)</p>
+
+
+    <article class="headers-for-content">Travel advisory: Safety during COVID-19</article>
+
+
+    <!-- Travel Advisory -->
+    <article id="travel-advisory">
+        We seek your kind assistance to safeguard your well-being, as well as that of your fellow passengers and our crew on board our flights, by following the guidelines set out below:
+        <br>
+        <ul>
+            <br>
+            <li>All customers should wear a <span>mask</span> and <span>sanitize their hands</span> before proceeding to the boarding gate.</li>
+            <br>
+            <li>Customers must wear a <span>face mask covering their nose and mouth</span>, throughout their journey with IndiGo. The mask may be removed <span>only</span> while eating and drinking.</li>
+            <br>
+            <li>Please maintain appropriate <span>social distancing</span> while boarding and de-boarding the aircraft.</li>
+            <br>
+            <li>Kindly <span>adhere to all the announcements and other directives</span> issued by our ground staff and/or crew at all points of time during your journey.</li>
+            <br>
+            <li>Customers are also requested to <span>familiarise themselves</span> with the guidelines for air passengers published by the Indian Ministry of Civil Aviation on the following link:</li>
+            <a href="https://www.civilaviation.gov.in/sites/default/files/Guidelines_for_Air_Passengers_21May.pdf">https://www.civilaviation.gov.in/sites/default/files/Guidelines_for_Air_Passengers_21May.pdf</a>
+            <a href="https://www.mohfw.gov.in/pdf/Guidelinesfordomestictravelflighttrainshipbusinterstatetravel.pdf">https://www.mohfw.gov.in/pdf/Guidelinesfordomestictravelflighttrainshipbusinterstatetravel.pdf</a>
+            <br><br>
+            <li><span>Caution: Customers are advised to strictly follow all COVID-19 protocols. Failure to comply with these guidelines and the directions of our ground staff and/or crew may attract penal action against the concerned individual.</span></li>
+        </ul>
+    </article>
+
+    <!-- Advert section -->
+    <article id="advert">
+        <div id="advert-text">Advertisement</div>
+        <div id="advert-image"></div>
+    </article>
+
+
+    <!-- Banner section -->
+    <article id="banner">
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="airplane-outline"></ion-icon></i></div>
+            <div class="banner-div-content">1900+ Daily flights</div>
+        </div>
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="map-outline"></ion-icon></div>
+            <div class="banner-div-content">80+ Domestic Destinations</div>
+        </div>
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="earth-outline"></ion-icon></div>
+            <div class="banner-div-content">30+ International Destinations</div>
+        </div>
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="walk-outline"></ion-icon></div>
+            <div class="banner-div-content">500 Mn+ happy passengers</div>
+        </div>
+        <div class="banner-div">
+            <div class="banner-div-icons"><ion-icon name="paper-plane-outline"></ion-icon></i></div>
+            <div class="banner-div-content">300+ Fleet strong</div>
+        </div>
+    </article>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <div><h3 class="footer-topic">Get to Know Us</h3></div>
+            <div class="footer-link-hover">About us</div>
+            <div class="footer-link-hover">IndiGo Green - ESG report</div>
+            <div class="footer-link-hover">IndiGoReach - Our CSR initiatives</div>
+            <div class="footer-link-hover">Hello 6E Magazine</div>
+            <div class="footer-link-hover">Board of Directors</div>
+            <div class="footer-link-hover">Leadership Team</div>
+            <div class="footer-link-hover">Investor Relations</div>
+            <div class="footer-link-hover">Press Releases</div>
+            <div class="footer-link-hover">InterGlobe Enterprises</div>
+            <div class="footer-link-hover">RPWD - Equal Opportunity Policy</div>
+            <div class="footer-link-hover">Transgender Persons Policy</div>
+            <div class="footer-link-hover">HIV/AIDS workplace policy</div>
+            <div class="footer-link-hover">Our Awards</div>
+            <div class="footer-link-hover">Seat/Aircraft information</div>
+        </div>
+        <div class="footer-links">
+            <div><h3 class="footer-topic">Services</h3></div>
+            <div class="footer-link-hover">Plan B</div>
+            <div class="footer-link-hover">Special/Disability Assistance</div>
+            <div class="footer-link-hover">Medical Assistance</div>
+            <div class="footer-link-hover">Seat Select</div>
+            <div class="footer-link-hover">Gift Voucher</div>
+            <div class="footer-link-hover">6E Eats</div>
+            <div class="footer-link-hover">Add-ons & Services</div>
+            <div class="footer-link-hover">Baggage</div>
+            <div class="footer-link-hover">Refund Claim</div>
+        </div>
+        <div class="footer-links">
+            <div><h3 class="footer-topic">Quick links</h3></div>
+            <div class="footer-link-hover">Offers</div>
+            <div class="footer-link-hover">Careers</div>
+            <div class="footer-link-hover">Advertise with us</div>
+            <div class="footer-link-hover">Sitemap</div>
+            <div class="footer-link-hover">Destinations</div>
+            <div class="footer-link-hover">Blogs</div>
+            <div class="footer-link-hover">Terms and Conditions</div>
+            <div class="footer-link-hover">Conditions of Carriage</div>
+            <div class="footer-link-hover">Privacy Policy</div>
+            <div class="footer-link-hover">Disclaimer</div>
+            <div class="footer-link-hover">International Travel Tips</div>
+            <div class="footer-link-hover">Web check-in Advisory</div>
+            <div class="footer-link-hover">Tariff Sheet</div>
+            <div class="footer-link-hover">Purchase Requirement</div>
+        </div>
+        <div class="footer-links">
+            <div><h3 class="footer-topic">Social</h3></div>
+            <div id="social-nav">
+                <div class="social-nav-icons"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="social-nav-icons"><i class="fa-brands fa-twitter"></i></div>
+                <div class="social-nav-icons"><i class="fa-brands fa-square-instagram"></i></div>
+                <div class="social-nav-icons"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="social-nav-icons"><i class="fa-solid fa-binoculars"></i></div>
+            </div>
+            <div><img src="images/connect_whatsapp.avif" alt="" id="connect-whatsapp"></div>
+            <div><h3 class="footer-topic">Download</h3></div>
+            <div><img src="images/gplay_download.svg" alt=""></div>
+            <div><img src="images/App_store_download.svg" alt=""></div>
+            <div><h3 class="footer-topic">Our Awards</h3></div>
+            <div><img src="images/Award_1.avif" alt="" class="award-images"></div>
+            <div><img src="images/Award_2.avif" alt="" class="award-images"></div>
+            <div><img src="images/Award_3.avif" alt="" class="award-images"></div>
+        </div>
+    </footer>
+
+    <!-- Copyright Section -->
+    <div id="copyright-ending">
+        <span id="plane-pic"><i class="fa-solid fa-plane-departure"></i></span>
+            &nbsp;
+            &copy; Copyright 2023 IndiGo. All rights reserved.
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
