@@ -199,15 +199,114 @@ a{
 #react-area-article{
     height: 725px;
     width: 910px;
-    margin-top: 9px;
+    margin: 9px 10px;
     /* background-color: #555555; */
 }
 
+#react-area-article div{
+    color: rgb(21, 20, 20);
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+
+#react-area-article span{
+    font-weight: bolder;
+}
+
+#first-content{
+    margin-top: 25px;
+}
+#second-content{
+    margin-top: 10px;
+}
+#please-note{
+    /* border: 1px solid red; */
+    margin-top: 27px;
+}
 .headers-for-react{
     font-family: 'Lato', sans-serif;
     font-size: 32px;
     font-weight: bolder;
     letter-spacing: 2px;
+}
+
+#reference-id-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 215px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#reference-id-area-inputs{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #dbd8d8;
+    font-size: large;
+    outline: none;
+}
+input::placeholder{
+    font-size: large;
+    padding-left: 2px;
+    color: #555555;
+}
+select{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #dbd8d8;
+    font-size: larger;
+    color: #555555;
+}
+
+input:hover, select:hover{
+    background-color: #bccbe32f;
+    border-bottom: 1px solid #217AFF;
+}
+#book-div{
+    width: 350px;
+}
+#email-div{
+    width: 430px;
+}
+
+#reference-id-area-inputs input{
+    height: 50px;
+}
+#reference-id-area-inputs select{
+    height: 50px;
+    width: 50px;
+    margin-left: -25px;
+}
+
+
+
+#reference-id-area-button{
+    height: 60px;
+    width: 100%;
+}
+#reference-id-area-button input{
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    background-color: #09379a;
+    color: #FFFF;
+    height: 50px;
+    width: 220px;
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: -4px;
+    margin-left: 690px;
 }
 
 #image-react-area img{

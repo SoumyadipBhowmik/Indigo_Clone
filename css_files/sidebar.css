@@ -11,6 +11,7 @@ header{
 }
 a{
     text-decoration: none;
+    color: rgba(25, 24, 24, 0.722);
 }
 
 a:active{

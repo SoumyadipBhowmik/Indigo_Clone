@@ -34,7 +34,7 @@
                 </div>
                 <div class="logo-and-nav-options" id="nav-holder">
                     <div class="nav-options" id="book">Book<i class="fa-solid fa-angle-down"></i></div>
-                    <div class="nav-options" id="check-in">Check-in</div>
+                    <div class="nav-options" id="check-in"><a href="web-checkin.html">Check-in</a></div>
                     <div class="nav-options">Manage<i class="fa-solid fa-angle-down"></i></div>
                     <div class="nav-options" id="rewards"><a href="rewards_page.html">6E Rewards</a></div>
                     <div class="nav-options" id="info">Info<i class="fa-solid fa-angle-down"></i></div>
@@ -79,6 +79,24 @@
         </div>
         <div id="react-area-article">
             <article class="headers-for-react">Web Check-in</article>
+            <div id="first-content"><p>Web check-in for passengers is available 48 hrs to 60 mins before domestic flight departure, and 24 hrs to 75 mins before international flight departure. </p></div>
+            <div id="second-content"><p>Airport Check-in at counter is available 60 mins before domestic flight departure, and 75 mins before international flight departure.</p></div>
+            <div id="please-note"><p><span>Please note:</span> Only personalized check-in assistance at the airport applicable for codeshare bookings.</p></div>
+
+            <div id="reference-id-area">
+                <div id="reference-id-area-inputs">
+                    <input type="text" placeholder="PNR/Booking Reference" id="book-div">
+                    <select>
+                        <option value="">6E</option>
+                        <option value="">TK</option>
+                    </select>
+                    <input type="email" placeholder="Email/Last Name" id="email-div">
+                </div>
+                <div id="reference-id-area-button">
+                    <input type="submit" value="Check-in">
+                </div>
+            </div>
+
             <div id="image-react-area"><img src="images/digiyatra.png" alt="digi-yatra"></div>
         </div>
     </div>
