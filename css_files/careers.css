@@ -264,7 +264,7 @@ body{
     margin-top: 255px;
 }
 
-#heading{
+.heading{
     width: 1000px;
     display: flex;
     justify-content: space-between;
@@ -281,20 +281,83 @@ body{
 
 
 #indigo-career-grid{
-    height: 1000px;
-    width: 1200px;
-    border: 1px solid red;
+    height: 910px;
+    width: 1090px;
     margin: 30px auto;
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 500px 500px;
+    grid-template-columns: 352px 352px 352px;
+    grid-template-rows: 445px 445px;
+    justify-content: space-between;
+    align-content: space-between;
 }
-.cards{
-    border: 1px solid red;
+.card{
+    height: 351px;
+    background-color: aliceblue;
+}
+.card-title{
+    font-family: 'Lato', sans-serif;
+    height: 91px;
+    /* background-color: #49DCEA; */
+    padding: 10px 4px;
+}
+.card-title-title{
+    font-size: large;
+    font-weight: bolder;
+}
+.card-title-content{
+    margin-top: 7px;
+    height: 40px;
+    width: 300px;
+    color: #676565;
+    /* border: 1px solid red; */
 }
 
 
+#indigo-career-grid-2{
+    height: 1200px;
+    width: 1090px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 352px 352px 352px;
+    grid-template-rows: 600px 600px;
+    justify-content: space-between;
+    align-content: space-between;
+    /* border: 1px solid red; */
+}
 
+.card-mask{
+    position: absolute;
+    top: 945px;
+    left: 215px;
+    height: 815px;
+    width: 1090px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 347px 347px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card-mask-1{
+    position: absolute;
+    top: 1950px;
+    left: 215px;
+    height: 1080px;
+    width: 1090px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 480px 480px;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.cards-mask-1:hover{
+    background-color: #dedede28;
+}
+.cards-mask:hover{
+    background-color: #dedede28;
+}
 
 #caution-tab{
     font-family: 'Lato', sans-serif;
@@ -334,6 +397,13 @@ body{
     height: 435px;
     width: 100%;
 }
+
+#heead span{
+    color: #FFFF;
+    margin-top: 35px;
+}
+
+
 #contact-us{
     height: 150px;
     width: 1150px;
