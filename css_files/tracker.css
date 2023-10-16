@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #676565;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    width: 100%;
+
+}
+.section-nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    height: 55px;
+    width: 195px;
+    margin-left: 50px;
+}
+#nav-options{
+    width: 200px;
+    /* background-color: aquamarine; */
+    margin-right: 135px;
+}
+
+#sidebar{
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    font-size: larger;
+    padding-top: 7px;
+    padding-left: 12px;
+    border-radius: 100%;
+}
+
+#sidebar:hover{
+    background-color: rgba(128, 128, 128, 0.421);
+    cursor: pointer;
+}
+#logo-indigo{
+    padding-top: 14px;
+    width: 150px;
+    height: 60px;
+    /* border: 1px solid red; */
+}
+.nav-option-divs{
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    padding-top: 15px;
+    font-size: large;
+}
+#departing-flight{
+    background-color: #F4F4F8;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 1420px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+h5{
+    color: blue;
+    padding: 15px 56px;
+    background-color: #F4F4F8;
+}
+
+aside{
+    background-color: #F4F4F8;
+    height: 40px;
+    padding: 15px 55px;
+}
+#depart{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+article{
+    padding-left: 55px;
+    background-color: #F4F4F8;
+    color: rgb(42, 41, 41);
+}
+article h1{
+    color: black;
+}
+
+.depart-details i{
+    height: 70px;
+    width: 320px;
+    font-size: small;
+    padding: 25px 25px;
+    color: black;
+}
+#depart:hover{
+    cursor: pointer;
+    background-color: #A9E7FF;
+    border: 1px solid blue;
+}
+
+.depart-details-locator{
+    height: 70px;
+    width: 420px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.depart-details-type{
+    height: 70px;
+    color: black;
+    font-weight: 500;
+    padding: 25px 110px;
+    width: 320px;
+}
+.depart-details-price{
+    height: 70px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    padding: 15px 110px;
+    width: 320px;
+}
+
+.date-time-area{
+    font-weight: bolder;
+    padding-top: 25px;
+    height: 60px;
+    width: 100px;
+    color: black;
+    /* background-color: aquamarine; */
+}
+#larger{
+    font-weight: lighter;
+    width: 163px;
+}
+
+#show-more-flight{
+    width: 1420px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: smaller;
+    color: black;
+    margin: 0px auto;
+    cursor: pointer;
+}
+.small{
+    font-weight: lighter;
+    width: 125px;
+    font-size: 12px;
+}
